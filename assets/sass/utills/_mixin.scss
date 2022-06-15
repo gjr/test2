@@ -1,0 +1,33 @@
+@mixin hidden{
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:0;
+    font-size:0;
+    opacity:0;
+    overflow:hidden;
+    visibility:hidden;
+    z-index: -1;
+}
+@mixin fontTitle{
+    font-size:3rem;
+    font-weight:bold;
+}
+@mixin btn{
+    font-size:1.125rem;
+    line-height: 50px;
+    font-weight:300;
+    height:50px;
+    border-radius:50px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+@mixin  gradient{
+    background: -ms-linear-gradient(right, #cb0035, #e06900);
+    background: linear-gradient(to right, #cb0035, #e06900);
+    -webkit-background-clip: text;
+    background-clip:text;
+    color: transparent;
+}
