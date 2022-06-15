@@ -23,7 +23,7 @@ html, body{
         max-width:205px;
         width:100%;
         padding: 0 0 0 35px;
-        background:url(/assets/images/btn.png)no-repeat 35px 50%;
+        background:url(../../assets/images/btn.png)no-repeat 35px 50%;
     }
     &.btn_style3 {
         color:$mainColor;
@@ -65,6 +65,7 @@ header {
     .logo a {
         color:$mainColor;
         font-size:2.25rem;
+        font-weight:400;
     }
 }
 nav ul {
@@ -88,7 +89,7 @@ nav ul {
 }
 
 .main_visual {
-    background:url(/assets/images/bg.png)no-repeat center;
+    background:url(../../assets/images/bg.png)no-repeat center;
     background-size:cover;
     padding:304px 0 557px;
     text-align: center;
@@ -116,7 +117,7 @@ nav ul {
         transform: translate(-50%, 0);
         font-size:1.125rem;
         color: rgba(255,255,255,.3);
-        background: url(/assets/images/scroll_icon.png)no-repeat 50% 0;
+        background: url(../../assets/images/scroll_icon.png)no-repeat 50% 0;
         background-size: 25px 43px;
         height: 75px;
         display: flex;
@@ -153,25 +154,25 @@ nav ul {
                 }
                 &.icon {
                     &::before {
-                        background:url(/assets/images/icon.png)no-repeat 50% 0;
+                        background:url(../../assets/images/icon.png)no-repeat 50% 0;
                         background-size:103px 100%;
                     }
                 }
                 &.icon2 {
                     &::before {
-                        background:url(/assets/images/icon2.png)no-repeat 50% 0;
+                        background:url(../../assets/images/icon2.png)no-repeat 50% 0;
                         background-size:97px 100%;
                     }
                 }
                 &.icon3 {
                     &::before {
-                        background:url(/assets/images/icon3.png)no-repeat 50% 0;
+                        background:url(../../assets/images/icon3.png)no-repeat 50% 0;
                         background-size:84px 100%;
                     }
                 }
                 &.icon4 {
                     &::before {
-                        background:url(/assets/images/icon4.png)no-repeat 50% 0;
+                        background:url(../../assets/images/icon4.png)no-repeat 50% 0;
                         background-size:71px 100%;
                     }
                 }
@@ -193,7 +194,7 @@ nav ul {
 }
 
 .pricing {
-    background: url(/assets/images/bg2.png)no-repeat right top 40px;
+    background: url(../../assets/images/bg2.png)no-repeat right top 40px;
     background-size:765px 610px;
     padding: 110px 20px;
 
@@ -275,7 +276,7 @@ nav ul {
                         transform: translate(-50%, -50%);
                         width: 50px;
                         height: 50px;
-                        background: url(/assets/images/btn.png)no-repeat 53%;
+                        background: url(../../assets/images/btn.png)no-repeat 53%;
                         background-size: 14px 17px;
                         color: transparent;
                         border-radius: 50px;
@@ -302,7 +303,7 @@ nav ul {
 }
 
 .ourRealizations {
-    background:url(/assets/images/bg5.png)no-repeat 50%;
+    background:url(../../assets/images/bg5.png)no-repeat 50%;
     background-size:cover;
     text-align: center;
     padding:160px 0;

@@ -53,7 +53,7 @@ html, body { min-width: 1280px; }
 
 .btn.btn_style { background: #fff; color: #d32721; border: 0; max-width: 205px; width: 100%; }
 
-.btn.btn_style2 { background: 0; color: #fff; border: 1px solid rgba(255, 255, 255, 0.31); max-width: 205px; width: 100%; padding: 0 0 0 35px; background: url(/assets/images/btn.png) no-repeat 35px 50%; }
+.btn.btn_style2 { background: 0; color: #fff; border: 1px solid rgba(255, 255, 255, 0.31); max-width: 205px; width: 100%; padding: 0 0 0 35px; background: url(../../assets/images/btn.png) no-repeat 35px 50%; }
 
 .btn.btn_style3 { color: #fff; border: 0; max-width: 205px; width: 100%; background: -webkit-gradient(linear, left top, right top, from(#264699), to(#4964a9)); background: linear-gradient(to right, #264699, #4964a9); }
 
@@ -63,7 +63,7 @@ html, body { min-width: 1280px; }
 
 header { position: absolute; top: 0; left: 0; width: 100%; height: 130px; -webkit-box-sizing: border-box; box-sizing: border-box; z-index: 2; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; min-width: 1280px; margin: 0 auto; padding: 0 20px; }
 
-header .logo a { color: #fff; font-size: 2.25rem; }
+header .logo a { color: #fff; font-size: 2.25rem; font-weight: 400; }
 
 nav ul { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
@@ -73,7 +73,7 @@ nav ul li a { color: #fff; font-size: 1.125rem; height: 40px; display: block; li
 
 nav ul li:last-child a { border: 1px solid rgba(255, 255, 255, 0.31); border-radius: 50px; padding: 0 20px; }
 
-.main_visual { background: url(/assets/images/bg.png) no-repeat center; background-size: cover; padding: 304px 0 557px; text-align: center; position: relative; }
+.main_visual { background: url(../../assets/images/bg.png) no-repeat center; background-size: cover; padding: 304px 0 557px; text-align: center; position: relative; }
 
 .main_visual dl { padding-bottom: 61px; }
 
@@ -81,7 +81,7 @@ nav ul li:last-child a { border: 1px solid rgba(255, 255, 255, 0.31); border-rad
 
 .main_visual dl dd { font-size: 1.12em; font-weight: 400; line-height: 36px; color: #e96f52; }
 
-.main_visual .scroll_icon { position: absolute; bottom: 108px; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); font-size: 1.125rem; color: rgba(255, 255, 255, 0.3); background: url(/assets/images/scroll_icon.png) no-repeat 50% 0; background-size: 25px 43px; height: 75px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+.main_visual .scroll_icon { position: absolute; bottom: 108px; left: 50%; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); font-size: 1.125rem; color: rgba(255, 255, 255, 0.3); background: url(../../assets/images/scroll_icon.png) no-repeat 50% 0; background-size: 25px 43px; height: 75px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
 
 .about { background: #f6f6f6; padding: 119px 0 98px; text-align: center; }
 
@@ -93,13 +93,13 @@ nav ul li:last-child a { border: 1px solid rgba(255, 255, 255, 0.31); border-rad
 
 .about > div dl dt::before { content: ''; height: 98px; display: block; margin-bottom: 22px; }
 
-.about > div dl dt.icon::before { background: url(/assets/images/icon.png) no-repeat 50% 0; background-size: 103px 100%; }
+.about > div dl dt.icon::before { background: url(../../assets/images/icon.png) no-repeat 50% 0; background-size: 103px 100%; }
 
-.about > div dl dt.icon2::before { background: url(/assets/images/icon2.png) no-repeat 50% 0; background-size: 97px 100%; }
+.about > div dl dt.icon2::before { background: url(../../assets/images/icon2.png) no-repeat 50% 0; background-size: 97px 100%; }
 
-.about > div dl dt.icon3::before { background: url(/assets/images/icon3.png) no-repeat 50% 0; background-size: 84px 100%; }
+.about > div dl dt.icon3::before { background: url(../../assets/images/icon3.png) no-repeat 50% 0; background-size: 84px 100%; }
 
-.about > div dl dt.icon4::before { background: url(/assets/images/icon4.png) no-repeat 50% 0; background-size: 71px 100%; }
+.about > div dl dt.icon4::before { background: url(../../assets/images/icon4.png) no-repeat 50% 0; background-size: 71px 100%; }
 
 .about > div dl dd { font-size: 1.125rem; font-weight: 400; color: #5e6372; line-height: 30px; }
 
@@ -107,7 +107,7 @@ nav ul li:last-child a { border: 1px solid rgba(255, 255, 255, 0.31); border-rad
 
 .about > div dl:last-child { padding-right: 0; }
 
-.pricing { background: url(/assets/images/bg2.png) no-repeat right top 40px; background-size: 765px 610px; padding: 110px 20px; }
+.pricing { background: url(../../assets/images/bg2.png) no-repeat right top 40px; background-size: 765px 610px; padding: 110px 20px; }
 
 .pricing .desc { font-size: 1.125rem; font-weight: 400; line-height: 36px; color: #5e6372; padding-bottom: 61px; }
 
@@ -135,13 +135,13 @@ nav ul li:last-child a { border: 1px solid rgba(255, 255, 255, 0.31); border-rad
 
 .ourDrones ul li > div.video_box img { width: 100%; vertical-align: top; }
 
-.ourDrones ul li > div.video_box .video_playBtn { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 50px; height: 50px; background: url(/assets/images/btn.png) no-repeat 53%; background-size: 14px 17px; color: transparent; border-radius: 50px; border: 1px solid #fff; cursor: pointer; -webkit-box-shadow: 1px 1px 49px rgba(10, 22, 45, 0.4); box-shadow: 1px 1px 49px rgba(10, 22, 45, 0.4); }
+.ourDrones ul li > div.video_box .video_playBtn { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 50px; height: 50px; background: url(../../assets/images/btn.png) no-repeat 53%; background-size: 14px 17px; color: transparent; border-radius: 50px; border: 1px solid #fff; cursor: pointer; -webkit-box-shadow: 1px 1px 49px rgba(10, 22, 45, 0.4); box-shadow: 1px 1px 49px rgba(10, 22, 45, 0.4); }
 
 .ourDrones ul li > div.txt_box { padding: 0 150px 0 70px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .ourDrones ul li > div.txt_box p { font-size: 1.125rem; color: #5e6372; line-height: 36px; padding-bottom: 60px; }
 
-.ourRealizations { background: url(/assets/images/bg5.png) no-repeat 50%; background-size: cover; text-align: center; padding: 160px 0; }
+.ourRealizations { background: url(../../assets/images/bg5.png) no-repeat 50%; background-size: cover; text-align: center; padding: 160px 0; }
 
 .ourRealizations .main_title1 { margin-bottom: 48px; }
 
