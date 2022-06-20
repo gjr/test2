@@ -26,8 +26,8 @@ em, address, i{font-style:normal}
 a{text-decoration:none}
 
 /* Root Font Style */
-:root{color:#5e6372;font-family: $proxima, sans-serif;font-size:1rem;line-height:1;box-sizing: border-box;word-break: break-all;word-wrap: break-word;white-space: inherit;}
-
+:root{color:#5e6372;font-family: $proxima, sans-serif;font-size:0.625rem;line-height:1;box-sizing: border-box;word-break: break-all;word-wrap: break-word;white-space: inherit;}
+// 리셋 0.625rem(10px)을 기본으로하고 px은 나누기10하면됨
 /* Hidden Text */
 .blind{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip-path:polygon(0 0, 0 0, 0 0);}
 
