@@ -19,7 +19,7 @@ html, body{
     &.btn_style2 {
         background:0;
         color:$mainColor;
-        border:1px solid rgba(255,255,255,.31);
+        border:0.1rem solid rgba(255,255,255,.31);
         max-width:20.5rem;
         width:100%;
         padding: 0 0 0 3.5rem;
@@ -33,7 +33,7 @@ html, body{
         background: linear-gradient(to right, #264699, #4964a9);
     }
     ~.btn {
-        margin-left:10px;
+        margin-left:1rem;
     }
 }
 .main_title1 {
@@ -81,7 +81,7 @@ nav ul {
             line-height: 4rem;
         }
         &:last-child a {
-            border:1px solid rgba(255,255,255,.31);
+            border:0.1rem solid rgba(255,255,255,.31);
             border-radius:5rem;
             padding:0 2rem;
         }
@@ -316,7 +316,7 @@ nav ul {
     text-align: center;
     padding:16rem 0;
 
-    .main_title1{margin-bottom:48px;}
+    .main_title1{margin-bottom:4.8rem;}
 
     fieldset {
         input {
