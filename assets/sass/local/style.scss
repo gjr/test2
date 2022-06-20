@@ -111,6 +111,9 @@ nav ul {
         }
     }
     .scroll_icon {
+        -webkit-appearance: none;
+        appearance: none;
+        border:0;
         position: absolute;
         bottom: 10.8rem;
         left:50%;
@@ -122,6 +125,7 @@ nav ul {
         height: 7.5rem;
         display: flex;
         align-items: flex-end;
+        cursor: pointer;
     }
 }
 

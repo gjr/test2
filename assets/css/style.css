@@ -261,6 +261,10 @@ nav ul li:last-child a {
   color: #e96f52;
 }
 .main_visual .scroll_icon {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  border: 0;
   position: absolute;
   bottom: 10.8rem;
   left: 50%;
@@ -272,6 +276,7 @@ nav ul li:last-child a {
   height: 7.5rem;
   display: flex;
   align-items: flex-end;
+  cursor: pointer;
 }
 
 .about {
